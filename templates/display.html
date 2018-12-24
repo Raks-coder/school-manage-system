@@ -1,0 +1,18 @@
+<html>
+  <style>
+body {
+    background-color: lightblue;
+}
+</style>
+	<body>
+		{% for i in range(0,k) %}
+		{% for j in range(0,l) %}
+		{{ result[i][j] }}
+		<br>
+		{% endfor %}
+		<br><br>
+		{% endfor %}
+		<br><br>
+		<a href = "/" >go to homepage</a>
+	</body>
+</html>

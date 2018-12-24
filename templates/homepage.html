@@ -1,0 +1,25 @@
+<html>
+  <style>
+body {
+    background-color: lightblue;
+}
+</style>
+	<form action = "/get_op_table" method = "POST">
+		<body>
+			<h2>select the operation to be performed</h2>
+			<br>
+			<input type = "radio" name = "operation" value = "insert"> insert<br>
+			<input type = "radio" name = "operation" value = "read"> read<br>
+			<input type = "radio" name = "operation" value = "update"> update<br>
+			<input type = "radio" name = "operation" value = "search"> search<br>
+			<input type = "radio" name = "operation" value = "delete"> delete
+			<br><br><br>
+			<h2>select the table to perform the operation</h2>
+			<input type = "radio" name = "table" value = "students"> students<br>
+			<input type = "radio" name = "table" value = "students"> markrs<br>
+			<input type = "radio" name = "table" value = "students"> department<br>
+			<input type = "radio" name = "table" value = "students"> subjects<br>
+			<input type = "submit" value = "Submit">
+	</form>			
+		</body>
+</html>
